@@ -5,8 +5,7 @@ set -e -x
 # Kernel Source
 KERNEL_SOURCE="https://github.com/infinixs5lite/kernel_xiaomi_sm8250"
 KERNEL_BRANCH="870"
-KERNEL_DEFCONFIG="/vendor/xiaomi/sm8250-common.config
-"
+KERNEL_DEFCONFIG="vendor/bengal_defconfig"
 
 # Prebuilt Clang Toolchain (AOSP)
 CLANG_URL="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2021/clang-r416183b.tar.gz"
